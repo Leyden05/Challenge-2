@@ -42,7 +42,17 @@ body {
 }
 
 .imgContainer {
+    display: grid;
+    height: 1000px;
+    width: 100%;
+    align-content: space-evenly;
 
+}
+
+#img1 {
+    height: 350px;
+    width: 600px;
+    border-radius: 20px;
 }
 
 .footContainer {
