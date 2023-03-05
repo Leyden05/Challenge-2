@@ -42,22 +42,54 @@ body {
 }
 
 .imgContainer {
-    display: grid;
-    height: 1000px;
+    display: flex;
     width: 100%;
-    align-content: space-evenly;
+    align-content: center;
+    justify-content: center;
 
 }
 
 #img1 {
-    height: 350px;
-    width: 600px;
+    height: 300px;
+    width: 650px;
     border-radius: 20px;
+}
+
+#img2 {
+    height: 300px;
+    width: 650px;
+    border-radius: 20px;
+}
+
+#img3 {
+    height: 300px;
+    width: 650px;
+    border-radius: 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn1 {
+    background-color: rgb(76, 108, 236);
+    margin-right: 450px;
+}
+
+#btn2 {
+    background-color: #f31616;
+    margin-right: 450px;
+}
+
+#btn3 {
+    background-color: rgb(39, 228, 86);
 }
 
 .footContainer {
     display: flex;
-    margin-top: 490px;
 }
 
 h1 {
